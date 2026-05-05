@@ -16,7 +16,15 @@ public class balaScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.CompareTag("pared"))
+        if (collider.CompareTag("pared") /*|| collider.CompareTag("Suelo")*/)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("pared") /*|| collision.collider.CompareTag("Suelo")*/)
         {
             gameObject.SetActive(false);
         }
