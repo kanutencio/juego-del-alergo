@@ -119,6 +119,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &23048758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 23048760}
+  - component: {fileID: 23048759}
+  m_Layer: 0
+  m_Name: polling Balas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &23048759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23048758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c7f0a4384c332845b6a4701a80ad448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::balasPooling
+  prefBala: {fileID: 3506177259223742158, guid: 1282e13769ea5f84dadfaae231abd19d, type: 3}
+  NBalas: 7
+  ListaBalas: []
+--- !u!4 &23048760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23048758}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.84334, y: 5.53, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &34901939
 GameObject:
   m_ObjectHideFlags: 0
@@ -13894,6 +13941,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -13.4
       objectReference: {fileID: 0}
+    - target: {fileID: 3907286195513616208, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
+      propertyPath: BP
+      value: 
+      objectReference: {fileID: 23048759}
     - target: {fileID: 4691297693422967894, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.43
@@ -13903,7 +13954,8 @@ PrefabInstance:
       value: pj
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4910961024758852536, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
@@ -13917,3 +13969,4 @@ SceneRoots:
   - {fileID: 597434732}
   - {fileID: 766818051}
   - {fileID: 1798972531}
+  - {fileID: 23048760}
