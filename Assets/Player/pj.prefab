@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3669351196914896529}
   - component: {fileID: 7680673975561726241}
   - component: {fileID: 4572723865676899737}
+  - component: {fileID: 7678843898353376504}
   - component: {fileID: 3907286195513616208}
   m_Layer: 0
   m_Name: pj
@@ -29,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 7804158293723563449}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.88, y: -3.35, z: 0}
-  m_LocalScale: {x: 0.45, y: 0.45, z: 0.5}
+  m_LocalPosition: {x: -7.9251, y: -3.1781, z: 0}
+  m_LocalScale: {x: 0.44176498, y: 0.45247498, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -269332765686319777, guid: fb4b1b25ac4db404e9b869a19aef1b2f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -155,18 +156,40 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.28718162, y: -0.03378606}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0, z: 0.02000122, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.46015, y: 4.13}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.9797959, y: 4.1984096}
   m_EdgeRadius: 0
+--- !u!95 &7678843898353376504
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7804158293723563449}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39b6eb07d4e950b43933a3ad5c98f409, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3907286195513616208
 MonoBehaviour:
   m_ObjectHideFlags: 0
