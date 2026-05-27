@@ -395,11 +395,38 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &37913479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7804158293723563449, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
+  m_PrefabInstance: {fileID: 8199989127446093087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &264244272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2604994818008869058, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
   m_PrefabInstance: {fileID: 8199989127446093087}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &264244278
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37913479}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8fc1f2141715f964eb4cf9725b37906d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::scriptCamara
   jugador: {fileID: 264244272}
-  offsetX: 7
+  offsetX: 0
 --- !u!1 &597434730
 GameObject:
   m_ObjectHideFlags: 0
@@ -13891,11 +13918,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2604994818008869058, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.88
+      value: -8.16
       objectReference: {fileID: 0}
     - target: {fileID: 2604994818008869058, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.65
+      value: -2.68
       objectReference: {fileID: 0}
     - target: {fileID: 2604994818008869058, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13945,6 +13972,10 @@ PrefabInstance:
       propertyPath: BP
       value: 
       objectReference: {fileID: 23048759}
+    - target: {fileID: 3907286195513616208, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
+      propertyPath: enSuelo
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4691297693422967894, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.43
@@ -13953,11 +13984,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: pj
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7804158293723563449, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7678843898353376504, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4910961024758852536, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7804158293723563449, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 264244278}
   m_SourcePrefab: {fileID: 100100000, guid: 902ec30f34bcea446ab20d2ad58aaa5b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
